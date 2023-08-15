@@ -1,0 +1,107 @@
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<title>Weather App</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    .search-bar {
+        width: 600px;
+        height: 50px;
+    }
+
+    .output{
+       padding-top: 100px;
+    }
+
+    .form-control {
+        width: 600px;
+        height: 50px;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+
+    .form-control::placeholder {
+        color: grey;
+    }
+
+    .search-btn {
+        position: absolute;
+        top: 5px;
+        right: -19px;
+        height: 40px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .data {
+        margin-top: 20px;
+        width: 400px;
+        height: 300px;
+        border-radius: 10px;
+        padding-left: 2rem;
+        background-color: #3B3C36;
+        color: #fff;
+        position: relative;
+    }
+
+    .date {
+        width: 400px;
+        height: 60px;
+        position: absolute;
+        left:0;
+        border-radius: 10px 10px 0 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem;
+        background-color: #494F55;
+    }
+
+    .city {
+        position: absolute;
+        top: 50px;
+        color: grey;
+        font-size: 24px;
+    }
+
+    .temp {
+        position: absolute;
+        bottom: 30px;
+        font-size: 60px;
+    }
+
+    .main {
+        display: grid;
+        place-items: center;
+        position: relative;
+    }
+
+    .home {
+        width: 650px;
+        position: absolute;
+        top: 200px;
+        left: 50px;
+        line-height: 50px;
+    }
+
+    .check {
+        border-radius: 15px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    }
+</style>
